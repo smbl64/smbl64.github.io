@@ -1,18 +1,18 @@
 baseURL = 'https://smbl64.github.io'
 languageCode = 'en-us'
 title = 'Mohammad Banisaeid'
-theme = 'm10c'
+theme = 'PaperMod'
 
 [params]
 author = "Mohammad Banisaeid"
 description = "My notes on tech and whatnot!"
 
-[[params.social]]
-  icon = "github"
-  name = "GitHub"
-  url = "https://github.com/smbl64"
+github = "smbl64"
+linkedin = "mbanisaeid"
+[params.homeInfoParams]
+Title = "Hi there wave"
+Content = "Some content"
 
-[[params.social]]
-  icon = "linkedin"
-  name = "LinkedIn"
-  url = "https://www.linkedin.com/in/mbanisaeid/"
+[[params.homeInfoParams.socialIcons]]
+name = "github"
+url = "https://wwwad.asdasdasd.com"
