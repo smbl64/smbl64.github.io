@@ -8,9 +8,18 @@ params:
   description: "My notes on tech and whatnot!"
 
   homeInfoParams:
-    Title: "Hi there wave"
-    Content: "Some content"
+    Title: "Hi there 👋"
+    Content: "Random thoghts and notes from me"
 
-    socialIcons:
-      - name: "github"
-        url: "https://wwwad.asdasdasd.com"
+  socialIcons:
+    - name: "github"
+      url: "https://www.github.com/smbl64"
+
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/mbanisaeid/"
+menu:
+  main:
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
