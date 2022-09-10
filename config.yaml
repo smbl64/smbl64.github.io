@@ -1,0 +1,16 @@
+baseURL: 'https://smbl64.github.io'
+languageCode: 'en-us'
+title: 'Mohammad Banisaeid'
+theme: 'PaperMod'
+
+params:
+  author: "Mohammad Banisaeid"
+  description: "My notes on tech and whatnot!"
+
+  homeInfoParams:
+    Title: "Hi there wave"
+    Content: "Some content"
+
+    socialIcons:
+      - name: "github"
+        url: "https://wwwad.asdasdasd.com"
