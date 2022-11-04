@@ -8,7 +8,7 @@ params:
   description: "My notes on tech and whatnot!"
 
   homeInfoParams:
-    Title: "Hi there 👋"
+    Title: "Hi there"
     Content: "Random thoghts and notes from me"
 
   socialIcons:

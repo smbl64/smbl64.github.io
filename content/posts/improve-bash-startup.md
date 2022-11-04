@@ -2,7 +2,7 @@
 title: "Improve the Bash Startup Time"
 date: 2022-10-31T17:18:30+01:00
 draft: false
-tags: ["bash", "bashrc"]
+tags: ["bash"]
 ---
 
 I do have a relatively big [`bashrc`][my-bashrc] file. If you look at that file, you will see this line towards the end:
