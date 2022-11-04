@@ -9,7 +9,7 @@ params:
 
   homeInfoParams:
     Title: "Hi there"
-    Content: "Random thoghts and notes from me"
+    Content: "Notes and thoughts from me"
 
   socialIcons:
     - name: "github"
