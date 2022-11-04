@@ -4,12 +4,16 @@ title: 'Mohammad Banisaeid'
 theme: 'PaperMod'
 
 params:
+  env: "production"
   author: "Mohammad Banisaeid"
   description: "My notes on tech and whatnot!"
+  hideSummary: true
+  disableSpecial1stPost: true
+  hideMeta: true
 
-  homeInfoParams:
-    Title: "Hi there"
-    Content: "Notes and thoughts from me"
+  #homeInfoParams:
+  #  Title: "Hi there"
+  #  Content: "Notes and thoughts from me"
 
   socialIcons:
     - name: "github"
@@ -19,6 +23,10 @@ params:
       url: "https://www.linkedin.com/in/mbanisaeid/"
 menu:
   main:
+    - identifier: archive
+      name: Archive
+      url: /archive/
+      weight: 20
     - identifier: tags
       name: Tags
       url: /tags/
