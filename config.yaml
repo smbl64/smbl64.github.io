@@ -10,6 +10,9 @@ params:
   hideSummary: true
   disableSpecial1stPost: true
   hideMeta: true
+  analytics:
+    google:
+      SiteVerificationTag: UxLkc_wDIbzBY2cckNgTqPAOyotK5Cu951VeEgEGXmo
 
   #homeInfoParams:
   #  Title: "Hi there"
@@ -31,3 +34,9 @@ menu:
       name: Tags
       url: /tags/
       weight: 20
+
+markup:
+  highlight:
+    #style: gruvbox
+    noClasses: true
+    codeFences: false
