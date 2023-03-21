@@ -1,4 +1,4 @@
-baseURL: 'https://smbl64.github.io'
+baseURL: 'https://banisaeid.com'
 languageCode: 'en-us'
 title: 'Mohammad Banisaeid'
 theme: 'PaperMod'
@@ -7,9 +7,9 @@ params:
   env: "production"
   author: "Mohammad Banisaeid"
   description: "My notes on tech and whatnot!"
-  hideSummary: true
+  hideSummary: false
   disableSpecial1stPost: true
-  hideMeta: true
+  hideMeta: false
   analytics:
     google:
       SiteVerificationTag: UxLkc_wDIbzBY2cckNgTqPAOyotK5Cu951VeEgEGXmo

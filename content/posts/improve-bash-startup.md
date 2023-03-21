@@ -1,5 +1,5 @@
 ---
-title: "Improve the Bash Startup Time"
+title: "Improve the Bash startup time"
 summary: " "
 date: 2022-10-31T17:18:30+01:00
 draft: false
