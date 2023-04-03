@@ -1,22 +1,16 @@
 baseURL: 'https://banisaeid.com'
 languageCode: 'en-us'
 title: 'Mohammad Banisaeid'
-theme: 'PaperMod'
-
+theme: 'PaperModX'
+pygmentsUseClasses: true
 params:
   env: "production"
   author: "Mohammad Banisaeid"
   description: "My notes on tech and whatnot!"
-  hideSummary: false
   disableSpecial1stPost: true
-  hideMeta: false
   analytics:
     google:
       SiteVerificationTag: UxLkc_wDIbzBY2cckNgTqPAOyotK5Cu951VeEgEGXmo
-
-  #homeInfoParams:
-  #  Title: "Hi there"
-  #  Content: "Notes and thoughts from me"
 
   socialIcons:
     - name: "github"
@@ -38,9 +32,3 @@ menu:
       name: GitHub
       url: https://www.github.com/smbl64
       weight: 3
-
-markup:
-  highlight:
-    #style: gruvbox
-    noClasses: true
-    codeFences: false
