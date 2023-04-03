@@ -33,4 +33,4 @@ Then create a file called `injections.scm` in that folder and paste this content
 Restart your Neovim. After opening Rust files with SQL strings, they will have syntax highlighting.
 
 You can see how it looks like in the screenshot below:
-![Screenshot](/rust-sql-highlight.jpg)
+![Screenshot](rust-sql-highlight.jpg)

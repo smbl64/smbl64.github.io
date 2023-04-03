@@ -3,6 +3,10 @@ languageCode: 'en-us'
 title: 'Mohammad Banisaeid'
 theme: 'PaperModX'
 pygmentsUseClasses: true
+
+minify:
+    disableXML: true
+    minifyOutput: true
 params:
   env: "production"
   author: "Mohammad Banisaeid"
