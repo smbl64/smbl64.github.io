@@ -7,7 +7,7 @@ tags: ["bash"]
 ---
 
 I do have a relatively big [`bashrc`][my-bashrc] file. If you look at that file, you will see this line towards the end:
-```
+```sh
 test -f ~/.bashrc_local && source ~/.bashrc_local
 ```
 
@@ -24,7 +24,7 @@ If you search on the Internet, there aren't that many tools to help with profili
 set -v
 set -x 
 
-<YOUR COMMANDS>
+#<YOUR COMMANDS>
 
 set +v
 set +x
@@ -63,7 +63,7 @@ Even better, I call `brew shellenv` *only once* and store the result in a file (
 
 Here is the relevant part in my [`bashrc`][my-bashrc]:
 
-```bash
+```bash {linenos=true}
 _brew_env_file="$HOME/.brew_env"
 __make_brew_envs_file() {
     # File already exists. Nothing to do.
@@ -105,7 +105,7 @@ What we ideally want is to process a completion file *on-demand*. In other words
 
 To get that, first we need to install the `HEAD` version of it, because the usual Homebrew version is rather old. To install the `HEAD` version:
 
-```
+```bash
 brew install --HEAD bash-completion@2
 ```
 
@@ -114,7 +114,7 @@ brew install --HEAD bash-completion@2
 
 Then, I disable the eager loading of those Homebrew-installed completion files:
 
-```
+```bash
 export BASH_COMPLETION_COMPAT_DIR="/blackhole!"
 ```
 
@@ -122,7 +122,7 @@ export BASH_COMPLETION_COMPAT_DIR="/blackhole!"
 
 Finally, I ask `bash-completion` to process Homebrew-installed completion files lazily:
 
-```
+```bash
 export BASH_COMPLETION_USER_DIR="$HOMEBREW_PREFIX/etc/bash-completion:$HOME/.local/share/bash-completion"
 ```
 
@@ -131,7 +131,7 @@ There are actually two paths specified there. One is for packages that are insta
 > The ability to add several folders to `BASH_COMPLETION_USER_DIR` is added in recent versions of `bash-completion@2`. That's why I used `--HEAD` when installing it.
 
 The full code looks like this:
-```
+```bash {linenos=true}
 __check_bash_completion_symlink() {
     # Create the symlink
     mkdir -p "$HOMEBREW_PREFIX/etc/bash-completion"

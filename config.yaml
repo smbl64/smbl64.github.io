@@ -2,14 +2,15 @@ baseURL: 'https://banisaeid.com'
 languageCode: 'en-us'
 title: 'Mohammad Banisaeid'
 theme: 'PaperMod'
-pygmentsUseClasses: true
-enableEmoji: true
 
 minify:
     disableXML: true
     minifyOutput: true
 
 params:
+  assets:
+      disableHLJS: true
+
   env: "production"
   author: "Mohammad Banisaeid"
   description: "My notes on tech and whatnot!"

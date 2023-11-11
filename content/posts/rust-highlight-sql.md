@@ -16,7 +16,7 @@ cd ~/.config/nvim/after/queries/rust
 
 Then create a file called `injections.scm` in that folder and paste this content there:
 
-```scheme
+```scheme {linenos=true}
 ; extends
 
 ; A general query injection
@@ -34,3 +34,4 @@ Restart your Neovim. After opening Rust files with SQL strings, they will have s
 
 You can see how it looks like in the screenshot below:
 ![Screenshot](/images/rust-sql-highlight.jpg)
+
