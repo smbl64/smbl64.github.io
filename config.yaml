@@ -1,7 +1,7 @@
 baseURL: 'https://banisaeid.com'
 languageCode: 'en-us'
 title: 'Mohammad Banisaeid'
-theme: 'PaperModX'
+theme: 'PaperMod'
 pygmentsUseClasses: true
 
 minify:
