@@ -3,10 +3,12 @@ languageCode: 'en-us'
 title: 'Mohammad Banisaeid'
 theme: 'PaperMod'
 pygmentsUseClasses: true
+enableEmoji: true
 
 minify:
     disableXML: true
     minifyOutput: true
+
 params:
   env: "production"
   author: "Mohammad Banisaeid"
@@ -16,17 +18,11 @@ params:
     google:
       SiteVerificationTag: UxLkc_wDIbzBY2cckNgTqPAOyotK5Cu951VeEgEGXmo
 
-  socialIcons:
-    - name: "github"
-      url: "https://www.github.com/smbl64"
-
-    - name: "linkedin"
-      url: "https://www.linkedin.com/in/mbanisaeid/"
 menu:
   main:
     - identifier: archive
       name: Archive
-      url: /archive/
+      url: /archives/
       weight: 1
     - identifier: tags
       name: Tags
