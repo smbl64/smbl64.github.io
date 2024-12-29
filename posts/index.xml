@@ -4,26 +4,23 @@
     <title>Posts on Mohammad Banisaeid</title>
     <link>https://banisaeid.com/posts/</link>
     <description>Recent content in Posts on Mohammad Banisaeid</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.140.1</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 03 Apr 2023 18:03:53 +0200</lastBuildDate><atom:link href="https://banisaeid.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 03 Apr 2023 18:03:53 +0200</lastBuildDate>
+    <atom:link href="https://banisaeid.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Highlight SQL strings in Rust</title>
       <link>https://banisaeid.com/posts/rust-highlight-sql/</link>
       <pubDate>Mon, 03 Apr 2023 18:03:53 +0200</pubDate>
-      
       <guid>https://banisaeid.com/posts/rust-highlight-sql/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Improve the Bash startup time</title>
       <link>https://banisaeid.com/posts/improve-bash-startup/</link>
       <pubDate>Mon, 31 Oct 2022 17:18:30 +0100</pubDate>
-      
       <guid>https://banisaeid.com/posts/improve-bash-startup/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>
